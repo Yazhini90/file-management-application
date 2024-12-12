@@ -1,0 +1,22 @@
+.file-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0;
+}
+
+.file-table th,
+.file-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.file-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.file-table tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
